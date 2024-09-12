@@ -5,4 +5,3 @@ alphabet = ''.join(
 )
 
 print("{}".format(alphabet), end="")
-
