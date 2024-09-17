@@ -65,4 +65,3 @@ This project contains several Python scripts that demonstrate the use of modules
 2. Make sure each script has executable permissions:
 ```bash
    chmod +x <script_name>
-```bash
