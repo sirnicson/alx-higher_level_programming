@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-for i in range(122, 96, -1):
-    if i % 2 != 0:
-        i = i - 32
-    print("{}".format(chr(i)), end="")
+print(''.join(f"{chr(122 - i).lower() if i % 2 == 0 else chr(90 - i)}" for i in range(26)), end='')
