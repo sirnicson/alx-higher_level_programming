@@ -9,4 +9,3 @@ def safe_print_list(my_list=[], x=0):
         pass  # Ignore the IndexError if x is larger than the list size
     print()  # Ensure a newline after printing the list
     return num
-
