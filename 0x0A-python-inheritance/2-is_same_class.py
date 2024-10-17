@@ -1,16 +1,9 @@
 #!/usr/bin/python3
-"""
-This module defines a class MyList that inherits from list.
-"""
+""" Return true if the object is an instance of a class """
 
-class MyList(list):
+
+def is_same_class(obj, a_class):
     """
-    MyList is a subclass of list that includes a method to print the list sorted.
+    Return true if the object is an instance of a class
     """
-    
-    def print_sorted(self):
-        """
-        Prints the list in ascending order.
-        """
-        sorted_list = sorted(self)  # Use the built-in sorted function
-        print(sorted_list)
+    return type(obj) == a_class
