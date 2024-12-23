@@ -35,6 +35,8 @@ Understanding ORM, MySQLdband sqlalchemy to CRUD MYSQL Db.
 
 - f. Create Python Scripts (starting with first task)
 
+- g. Test each script: ./0-select_states.py <user> <password> hbtn_0e_0_usa
+
 ## Tests ✔️
 tests: Folder of SQL and Python scripts.
 
@@ -155,3 +157,6 @@ Results are sorted by ascending states.id and cities.id.
 Usage: ./102-relationship_cities_states_list.py <mysql username> <mysql password> <database name>.
 Uses the state relationship to access the State objects linked to City objects.
 Results are sorted by ascending cities.id.
+
+
+
